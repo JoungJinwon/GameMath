@@ -1,8 +1,8 @@
-# Install script for directory: C:/GameMath/gamemath-3-2c/Source/Player
+# Install script for directory: C:/GameMath/gamemath-4-1c/Source/Player
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SoftRenderer3-2c")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SoftRenderer4-1c")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
