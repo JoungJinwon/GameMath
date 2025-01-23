@@ -1,9 +1,9 @@
 # CMake generation dependency list for this directory.
-C:/GameMath/gamemath-5-1c/CMakeLists.txt
-C:/GameMath/gamemath-5-1c/Project/CMakeFiles/3.28.3/CMakeCCompiler.cmake
-C:/GameMath/gamemath-5-1c/Project/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake
-C:/GameMath/gamemath-5-1c/Project/CMakeFiles/3.28.3/CMakeRCCompiler.cmake
-C:/GameMath/gamemath-5-1c/Project/CMakeFiles/3.28.3/CMakeSystem.cmake
+C:/GameMath/gamemath-5-2c/CMakeLists.txt
+C:/GameMath/gamemath-5-2c/Project/CMakeFiles/3.28.3/CMakeCCompiler.cmake
+C:/GameMath/gamemath-5-2c/Project/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake
+C:/GameMath/gamemath-5-2c/Project/CMakeFiles/3.28.3/CMakeRCCompiler.cmake
+C:/GameMath/gamemath-5-2c/Project/CMakeFiles/3.28.3/CMakeSystem.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in
 C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c
 C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake

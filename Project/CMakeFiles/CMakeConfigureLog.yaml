@@ -24,9 +24,9 @@ events:
       The output was:
       0
       msbuild 버전 17.8.5+b5265ef37(.NET Framework용)
-      빌드 시작: 2025-01-23 오후 7:50:14
+      빌드 시작: 2025-01-23 오후 10:09:29
       
-      1 노드의 "C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
+      1 노드의 "C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
         "Debug\\" 디렉터리를 만들고 있습니다.
         구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
@@ -39,7 +39,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -47,13 +47,13 @@ events:
       FinalizeBuildStatus:
         "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
         "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"에 연결(touching)하고 있습니다.
-      "C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+      "C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
       
       빌드했습니다.
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:00.60
+      경과 시간: 00:00:00.70
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -61,7 +61,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/GameMath/gamemath-5-1c/Project/CMakeFiles/3.28.3/CompilerIdC/CompilerIdC.exe
+        C:/GameMath/gamemath-5-2c/Project/CMakeFiles/3.28.3/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -79,9 +79,9 @@ events:
       The output was:
       0
       msbuild 버전 17.8.5+b5265ef37(.NET Framework용)
-      빌드 시작: 2025-01-23 오후 7:50:14
+      빌드 시작: 2025-01-23 오후 10:09:30
       
-      1 노드의 "C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
+      1 노드의 "C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
         "Debug\\" 디렉터리를 만들고 있습니다.
         구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
@@ -94,7 +94,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -102,13 +102,13 @@ events:
       FinalizeBuildStatus:
         "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
         "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"에 연결(touching)하고 있습니다.
-      "C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+      "C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
       
       빌드했습니다.
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:00.53
+      경과 시간: 00:00:00.59
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -116,7 +116,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/GameMath/gamemath-5-1c/Project/CMakeFiles/3.28.3/CompilerIdCXX/CompilerIdCXX.exe
+        C:/GameMath/gamemath-5-2c/Project/CMakeFiles/3.28.3/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -127,48 +127,48 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/GameMath/gamemath-5-1c/Project/CMakeFiles/CMakeScratch/TryCompile-xt492m"
-      binary: "C:/GameMath/gamemath-5-1c/Project/CMakeFiles/CMakeScratch/TryCompile-xt492m"
+      source: "C:/GameMath/gamemath-5-2c/Project/CMakeFiles/CMakeScratch/TryCompile-cgayv3"
+      binary: "C:/GameMath/gamemath-5-2c/Project/CMakeFiles/CMakeScratch/TryCompile-cgayv3"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/GameMath/gamemath-5-1c/Project/CMakeFiles/CMakeScratch/TryCompile-xt492m'
+        Change Dir: 'C:/GameMath/gamemath-5-2c/Project/CMakeFiles/CMakeScratch/TryCompile-cgayv3'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_21844.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_14d99.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.8.5+b5265ef37(.NET Framework용)
-        빌드 시작: 2025-01-23 오후 7:50:15
+        빌드 시작: 2025-01-23 오후 10:09:31
         
-        1 노드의 "C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-xt492m\\cmTC_21844.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-cgayv3\\cmTC_14d99.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_21844.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_14d99.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-xt492m\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_21844.dir\\Debug\\cmTC_21844.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-cgayv3\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_14d99.dir\\Debug\\cmTC_14d99.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_21844.dir\\Debug\\cmTC_21844.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_21844.dir\\Debug\\cmTC_21844.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_14d99.dir\\Debug\\cmTC_14d99.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_14d99.dir\\Debug\\cmTC_14d99.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21844.dir\\Debug\\\\" /Fd"cmTC_21844.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_14d99.dir\\Debug\\\\" /Fd"cmTC_14d99.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.38.33135(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21844.dir\\Debug\\\\" /Fd"cmTC_21844.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_14d99.dir\\Debug\\\\" /Fd"cmTC_14d99.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-xt492m\\Debug\\cmTC_21844.exe" /INCREMENTAL /ILK:"cmTC_21844.dir\\Debug\\cmTC_21844.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GameMath/gamemath-5-1c/Project/CMakeFiles/CMakeScratch/TryCompile-xt492m/Debug/cmTC_21844.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GameMath/gamemath-5-1c/Project/CMakeFiles/CMakeScratch/TryCompile-xt492m/Debug/cmTC_21844.lib" /MACHINE:X64  /machine:x64 cmTC_21844.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_21844.vcxproj -> C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-xt492m\\Debug\\cmTC_21844.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-cgayv3\\Debug\\cmTC_14d99.exe" /INCREMENTAL /ILK:"cmTC_14d99.dir\\Debug\\cmTC_14d99.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GameMath/gamemath-5-2c/Project/CMakeFiles/CMakeScratch/TryCompile-cgayv3/Debug/cmTC_14d99.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GameMath/gamemath-5-2c/Project/CMakeFiles/CMakeScratch/TryCompile-cgayv3/Debug/cmTC_14d99.lib" /MACHINE:X64  /machine:x64 cmTC_14d99.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_14d99.vcxproj -> C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-cgayv3\\Debug\\cmTC_14d99.exe
         FinalizeBuildStatus:
-          "cmTC_21844.dir\\Debug\\cmTC_21844.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_21844.dir\\Debug\\cmTC_21844.tlog\\cmTC_21844.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-xt492m\\cmTC_21844.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_14d99.dir\\Debug\\cmTC_14d99.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_14d99.dir\\Debug\\cmTC_14d99.tlog\\cmTC_14d99.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-cgayv3\\cmTC_14d99.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:00.48
+        경과 시간: 00:00:00.53
         
       exitCode: 0
   -
@@ -180,48 +180,48 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/GameMath/gamemath-5-1c/Project/CMakeFiles/CMakeScratch/TryCompile-n5surj"
-      binary: "C:/GameMath/gamemath-5-1c/Project/CMakeFiles/CMakeScratch/TryCompile-n5surj"
+      source: "C:/GameMath/gamemath-5-2c/Project/CMakeFiles/CMakeScratch/TryCompile-o59otd"
+      binary: "C:/GameMath/gamemath-5-2c/Project/CMakeFiles/CMakeScratch/TryCompile-o59otd"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/GameMath/gamemath-5-1c/Project/CMakeFiles/CMakeScratch/TryCompile-n5surj'
+        Change Dir: 'C:/GameMath/gamemath-5-2c/Project/CMakeFiles/CMakeScratch/TryCompile-o59otd'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cd781.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1cc01.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.8.5+b5265ef37(.NET Framework용)
-        빌드 시작: 2025-01-23 오후 7:50:16
+        빌드 시작: 2025-01-23 오후 10:09:32
         
-        1 노드의 "C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-n5surj\\cmTC_cd781.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-o59otd\\cmTC_1cc01.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_cd781.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_1cc01.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-n5surj\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_cd781.dir\\Debug\\cmTC_cd781.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-o59otd\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_1cc01.dir\\Debug\\cmTC_1cc01.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_cd781.dir\\Debug\\cmTC_cd781.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_cd781.dir\\Debug\\cmTC_cd781.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_1cc01.dir\\Debug\\cmTC_1cc01.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_1cc01.dir\\Debug\\cmTC_1cc01.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cd781.dir\\Debug\\\\" /Fd"cmTC_cd781.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1cc01.dir\\Debug\\\\" /Fd"cmTC_1cc01.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.38.33135(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cd781.dir\\Debug\\\\" /Fd"cmTC_cd781.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1cc01.dir\\Debug\\\\" /Fd"cmTC_1cc01.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-n5surj\\Debug\\cmTC_cd781.exe" /INCREMENTAL /ILK:"cmTC_cd781.dir\\Debug\\cmTC_cd781.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GameMath/gamemath-5-1c/Project/CMakeFiles/CMakeScratch/TryCompile-n5surj/Debug/cmTC_cd781.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GameMath/gamemath-5-1c/Project/CMakeFiles/CMakeScratch/TryCompile-n5surj/Debug/cmTC_cd781.lib" /MACHINE:X64  /machine:x64 cmTC_cd781.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_cd781.vcxproj -> C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-n5surj\\Debug\\cmTC_cd781.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-o59otd\\Debug\\cmTC_1cc01.exe" /INCREMENTAL /ILK:"cmTC_1cc01.dir\\Debug\\cmTC_1cc01.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GameMath/gamemath-5-2c/Project/CMakeFiles/CMakeScratch/TryCompile-o59otd/Debug/cmTC_1cc01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GameMath/gamemath-5-2c/Project/CMakeFiles/CMakeScratch/TryCompile-o59otd/Debug/cmTC_1cc01.lib" /MACHINE:X64  /machine:x64 cmTC_1cc01.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_1cc01.vcxproj -> C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-o59otd\\Debug\\cmTC_1cc01.exe
         FinalizeBuildStatus:
-          "cmTC_cd781.dir\\Debug\\cmTC_cd781.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_cd781.dir\\Debug\\cmTC_cd781.tlog\\cmTC_cd781.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\GameMath\\gamemath-5-1c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-n5surj\\cmTC_cd781.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_1cc01.dir\\Debug\\cmTC_1cc01.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_1cc01.dir\\Debug\\cmTC_1cc01.tlog\\cmTC_1cc01.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\GameMath\\gamemath-5-2c\\Project\\CMakeFiles\\CMakeScratch\\TryCompile-o59otd\\cmTC_1cc01.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:00.48
+        경과 시간: 00:00:00.51
         
       exitCode: 0
 ...
