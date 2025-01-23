@@ -1,83 +1,83 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Precompiled.cpp" />
-    <ClCompile Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Private\2D\Shader.cpp">
+    <ClCompile Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Precompiled.cpp" />
+    <ClCompile Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Private\2D\Shader.cpp">
       <Filter>Private\2D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Private\2D\Vertex.cpp">
+    <ClCompile Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Private\2D\Vertex.cpp">
       <Filter>Private\2D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Private\3D\PerspectiveTest.cpp">
+    <ClCompile Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Private\3D\PerspectiveTest.cpp">
       <Filter>Private\3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Private\3D\Shader.cpp">
+    <ClCompile Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Private\3D\Shader.cpp">
       <Filter>Private\3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Private\3D\Vertex.cpp">
+    <ClCompile Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Private\3D\Vertex.cpp">
       <Filter>Private\3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Private\Windows\WindowsGDI.cpp">
+    <ClCompile Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Private\Windows\WindowsGDI.cpp">
       <Filter>Private\Windows</Filter>
     </ClCompile>
-    <ClCompile Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Private\Windows\WindowsRSI.cpp">
+    <ClCompile Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Private\Windows\WindowsRSI.cpp">
       <Filter>Private\Windows</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Precompiled.h" />
-    <ClInclude Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Public\2D\Shader.h">
+    <ClInclude Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Precompiled.h" />
+    <ClInclude Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Public\2D\Shader.h">
       <Filter>Public\2D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Public\2D\Vertex.h">
+    <ClInclude Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Public\2D\Vertex.h">
       <Filter>Public\2D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Public\3D\PerspectiveTest.h">
+    <ClInclude Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Public\3D\PerspectiveTest.h">
       <Filter>Public\3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Public\3D\Shader.h">
+    <ClInclude Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Public\3D\Shader.h">
       <Filter>Public\3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Public\3D\Vertex.h">
+    <ClInclude Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Public\3D\Vertex.h">
       <Filter>Public\3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Public\RendererHeaders.h">
+    <ClInclude Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Public\RendererHeaders.h">
       <Filter>Public</Filter>
     </ClInclude>
-    <ClInclude Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Public\RendererInterface.h">
+    <ClInclude Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Public\RendererInterface.h">
       <Filter>Public</Filter>
     </ClInclude>
-    <ClInclude Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Public\Windows\WindowsGDI.h">
+    <ClInclude Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Public\Windows\WindowsGDI.h">
       <Filter>Public\Windows</Filter>
     </ClInclude>
-    <ClInclude Include="C:\GameMath\gamemath-main\Source\Runtime\Renderer\Public\Windows\WindowsRSI.h">
+    <ClInclude Include="C:\GameMath\gamemath-3-1c\Source\Runtime\Renderer\Public\Windows\WindowsRSI.h">
       <Filter>Public\Windows</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Private">
-      <UniqueIdentifier>{7229ABFD-E130-37D6-B1D4-12A0F5C84461}</UniqueIdentifier>
+      <UniqueIdentifier>{78667221-5A4B-3A17-95B5-F0096B1FE1E5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Private\2D">
-      <UniqueIdentifier>{8F6FCB83-C13A-304B-AB70-10BD037D59CE}</UniqueIdentifier>
+      <UniqueIdentifier>{4F9E0165-B301-3692-A95A-26F39404673B}</UniqueIdentifier>
     </Filter>
     <Filter Include="Private\3D">
-      <UniqueIdentifier>{49C00010-8C17-3FDE-876A-661CACF61378}</UniqueIdentifier>
+      <UniqueIdentifier>{CD554DF7-AC29-3885-8A3E-9E3F5142FF62}</UniqueIdentifier>
     </Filter>
     <Filter Include="Private\Windows">
-      <UniqueIdentifier>{07254D0F-91C0-3B6D-9237-F0365A000283}</UniqueIdentifier>
+      <UniqueIdentifier>{2DC70BCB-F11E-34A2-93BB-77264D6401A3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Public">
-      <UniqueIdentifier>{3E42827F-C0E5-3485-9BEA-9068F737C2AE}</UniqueIdentifier>
+      <UniqueIdentifier>{1AA097EE-1A7E-32A0-A911-DA025DE26EDC}</UniqueIdentifier>
     </Filter>
     <Filter Include="Public\2D">
-      <UniqueIdentifier>{37371783-6133-3543-9FCB-327C6737807A}</UniqueIdentifier>
+      <UniqueIdentifier>{1955707F-244E-38B3-9C15-03F3B1ECB828}</UniqueIdentifier>
     </Filter>
     <Filter Include="Public\3D">
-      <UniqueIdentifier>{2D87D1FF-EC03-3837-B552-C4272B2AC663}</UniqueIdentifier>
+      <UniqueIdentifier>{F5A043A4-07C7-3C4F-9F92-73FE97747B50}</UniqueIdentifier>
     </Filter>
     <Filter Include="Public\Windows">
-      <UniqueIdentifier>{21BD5FF7-3AAD-30D6-8472-A16438104FB6}</UniqueIdentifier>
+      <UniqueIdentifier>{5916F9B8-C165-3D7B-9E2F-82422F4058DD}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
