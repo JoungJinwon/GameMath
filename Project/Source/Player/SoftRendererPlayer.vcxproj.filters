@@ -1,53 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\GameMath\gamemath-4-5c\Source\Player\Precompiled.cpp" />
-    <ClCompile Include="C:\GameMath\gamemath-4-5c\Source\Player\Private\SystemInputManager.cpp">
+    <ClCompile Include="C:\GameMath\gamemath-5-1c\Source\Player\Precompiled.cpp" />
+    <ClCompile Include="C:\GameMath\gamemath-5-1c\Source\Player\Private\SystemInputManager.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClCompile Include="C:\GameMath\gamemath-4-5c\Source\Player\SoftRenderer.cpp" />
-    <ClCompile Include="C:\GameMath\gamemath-4-5c\Source\Player\SoftRenderer2D.cpp" />
-    <ClCompile Include="C:\GameMath\gamemath-4-5c\Source\Player\SoftRenderer3D.cpp" />
-    <ClCompile Include="C:\GameMath\gamemath-4-5c\Source\Player\Private\Windows\WindowsApp.cpp">
+    <ClCompile Include="C:\GameMath\gamemath-5-1c\Source\Player\SoftRenderer.cpp" />
+    <ClCompile Include="C:\GameMath\gamemath-5-1c\Source\Player\SoftRenderer2D.cpp" />
+    <ClCompile Include="C:\GameMath\gamemath-5-1c\Source\Player\SoftRenderer3D.cpp" />
+    <ClCompile Include="C:\GameMath\gamemath-5-1c\Source\Player\Private\Windows\WindowsApp.cpp">
       <Filter>Private\Windows</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\GameMath\gamemath-4-5c\Source\Player\Precompiled.h" />
-    <ClInclude Include="C:\GameMath\gamemath-4-5c\Source\Player\SoftRenderer.h" />
-    <ClInclude Include="C:\GameMath\gamemath-4-5c\Source\Player\SystemInputManager.h" />
-    <ClInclude Include="C:\GameMath\gamemath-4-5c\Source\Player\Private\Windows\Res\resource.h">
+    <ClInclude Include="C:\GameMath\gamemath-5-1c\Source\Player\Precompiled.h" />
+    <ClInclude Include="C:\GameMath\gamemath-5-1c\Source\Player\SoftRenderer.h" />
+    <ClInclude Include="C:\GameMath\gamemath-5-1c\Source\Player\SystemInputManager.h" />
+    <ClInclude Include="C:\GameMath\gamemath-5-1c\Source\Player\Private\Windows\Res\resource.h">
       <Filter>Private\Windows\Res</Filter>
     </ClInclude>
-    <ClInclude Include="C:\GameMath\gamemath-4-5c\Source\Player\Private\Windows\WindowsPlayer.h">
+    <ClInclude Include="C:\GameMath\gamemath-5-1c\Source\Player\Private\Windows\WindowsPlayer.h">
       <Filter>Private\Windows</Filter>
     </ClInclude>
-    <ClInclude Include="C:\GameMath\gamemath-4-5c\Source\Player\Private\Windows\WindowsUtil.h">
+    <ClInclude Include="C:\GameMath\gamemath-5-1c\Source\Player\Private\Windows\WindowsUtil.h">
       <Filter>Private\Windows</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\GameMath\gamemath-4-5c\Source\Player\Private\Windows\Res\player.ico">
+    <None Include="C:\GameMath\gamemath-5-1c\Source\Player\Private\Windows\Res\player.ico">
       <Filter>Private\Windows\Res</Filter>
     </None>
-    <None Include="C:\GameMath\gamemath-4-5c\Source\Player\Private\Windows\Res\player_small.ico">
+    <None Include="C:\GameMath\gamemath-5-1c\Source\Player\Private\Windows\Res\player_small.ico">
       <Filter>Private\Windows\Res</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="C:\GameMath\gamemath-4-5c\Source\Player\Private\Windows\Res\player.rc">
+    <ResourceCompile Include="C:\GameMath\gamemath-5-1c\Source\Player\Private\Windows\Res\player.rc">
       <Filter>Private\Windows\Res</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Private">
-      <UniqueIdentifier>{A6C14DA6-93D8-30E7-92E5-D7A5E4AF2765}</UniqueIdentifier>
+      <UniqueIdentifier>{83FED2B1-8CEC-3477-9839-2353384F63B6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Private\Windows">
-      <UniqueIdentifier>{46E0F51B-5521-33C2-9FD5-7A08172C0865}</UniqueIdentifier>
+      <UniqueIdentifier>{FDBEA612-5EFF-3C3C-A30E-255FD2C4A426}</UniqueIdentifier>
     </Filter>
     <Filter Include="Private\Windows\Res">
-      <UniqueIdentifier>{516A32BF-2248-3C12-9449-CF388B663824}</UniqueIdentifier>
+      <UniqueIdentifier>{7A9B9098-472F-335E-99BB-B585BD5CF5B4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
