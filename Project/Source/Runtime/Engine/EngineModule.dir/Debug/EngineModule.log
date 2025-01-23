@@ -13,4 +13,4 @@
   GameObject.cpp
   Mesh.cpp
   TransformComponent.cpp
-  EngineModule.vcxproj -> C:\GameMath\gamemath-3-1c\Output\Windows\Library\Debug\EngineModule.lib
+  EngineModule.vcxproj -> C:\GameMath\gamemath-3-2c\Output\Windows\Library\Debug\EngineModule.lib
