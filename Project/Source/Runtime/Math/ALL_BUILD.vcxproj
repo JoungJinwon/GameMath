@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D8F8F866-EA62-398C-AAB7-CBE85D1621C0}</ProjectGuid>
+    <ProjectGuid>{5C3D3128-CF40-333C-935E-3CFC8D19157A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-2c\Source\Runtime\Math;C:\GameMath\gamemath-4-2c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-2c\Source\Runtime\Math\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-3c\Source\Runtime\Math;C:\GameMath\gamemath-4-3c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-3c\Source\Runtime\Math\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-2c\Source\Runtime\Math;C:\GameMath\gamemath-4-2c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-2c\Source\Runtime\Math\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-3c\Source\Runtime\Math;C:\GameMath\gamemath-4-3c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-3c\Source\Runtime\Math\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-2c\Source\Runtime\Math;C:\GameMath\gamemath-4-2c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-2c\Source\Runtime\Math\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-3c\Source\Runtime\Math;C:\GameMath\gamemath-4-3c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-3c\Source\Runtime\Math\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-2c\Source\Runtime\Math;C:\GameMath\gamemath-4-2c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-2c\Source\Runtime\Math\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-3c\Source\Runtime\Math;C:\GameMath\gamemath-4-3c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-3c\Source\Runtime\Math\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -110,8 +110,8 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\GameMath\gamemath-4-2c\Project\Source\Runtime\Math\MathModule.vcxproj">
-      <Project>{65365046-3133-3CD2-8EF7-1262A9833547}</Project>
+    <ProjectReference Include="C:\GameMath\gamemath-4-3c\Project\Source\Runtime\Math\MathModule.vcxproj">
+      <Project>{870DF3BA-DC5B-3196-A54C-2D71B7557B64}</Project>
       <Name>MathModule</Name>
     </ProjectReference>
   </ItemGroup>
