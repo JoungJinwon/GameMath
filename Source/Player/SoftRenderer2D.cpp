@@ -53,8 +53,6 @@ void SoftRenderer::LoadScene2D()
 }
 
 // 게임 로직과 렌더링 로직이 공유하는 변수
-Vector2 currentPosition;
-float currentScale = 10.f;
 float currentDegree = 0.f;
 
 // 게임 로직을 담당하는 함수
@@ -65,20 +63,11 @@ void SoftRenderer::Update2D(float InDeltaSeconds)
 	const InputManager& input = g.GetInputManager();
 
 	// 게임 로직의 로컬 변수
-	static float moveSpeed = 100.f;
-	static float scaleMin = 5.f;
-	static float scaleMax = 20.f;
-	static float scaleSpeed = 20.f;
 	static float rotateSpeed = 180.f;
 
-	Vector2 inputVector = Vector2(input.GetAxis(InputAxis::XAxis), input.GetAxis(InputAxis::YAxis)).GetNormalize();
-	Vector2 deltaPosition = inputVector * moveSpeed * InDeltaSeconds;
-	float deltaScale = input.GetAxis(InputAxis::ZAxis) * scaleSpeed * InDeltaSeconds;
 	float deltaDegree = input.GetAxis(InputAxis::WAxis) * rotateSpeed * InDeltaSeconds;
 
 	// 물체의 최종 상태 설정
-	currentPosition += deltaPosition;
-	currentScale = Math::Clamp(currentScale + deltaScale, scaleMin, scaleMax);
 	currentDegree += deltaDegree;
 }
 
@@ -93,50 +82,55 @@ void SoftRenderer::Render2D()
 	DrawGizmo2D();
 
 	// 렌더링 로직의 로컬 변수
-	float rad = 0.f;
-	static float increment = 0.001f;
-	static std::vector<Vector2> hearts;
-	HSVColor hsv(0.f, 1.f, 0.85f);
+	static float halfSize = 100.f;
+	static std::vector<Vector2> squares;
 
-	// 하트를 구성하는 점 생성
-	if (hearts.empty())
+	// 사각형을 구성하는 점을 생성
+	if (squares.empty())
 	{
-		for (rad = 0.f; rad < Math::TwoPI; rad += increment)
+		for (float x = -halfSize; x <= halfSize; x += 0.25f)
 		{
-			float sin = sinf(rad);
-			float cos = cosf(rad);
-			float cos2 = cosf(2 * rad);
-			float cos3 = cosf(3 * rad);
-			float cos4 = cosf(4 * rad);
-			float x = 16.f * sin * sin * sin;
-			float y = 13 * cos - 5 * cos2 - 2 * cos3 - cos4;
-			hearts.push_back(Vector2(x, y));
+			for (float y = -halfSize; y <= halfSize; y += 0.25f)
+			{
+				squares.push_back(Vector2(x, y));
+			}
 		}
 	}
 
-	// 각도에 해당하는 사인과 코사인 값 얻기
+	// 각도에 해당하는 사인과 코사인 함수 얻기
 	float sin = 0.f, cos = 0.f;
 	Math::GetSinCos(sin, cos, currentDegree);
 
-	// 각 값을 초기화한 후 색상을 증가시키면서 점에 대응
-	rad = 0.f;
-	for (auto const& v : hearts)
-	{
-		// 1. 점에 크기를 적용한다.
-		Vector2 scaledV = v * currentScale;
-		// 2. 크기가 변한 점을 회전시킨다.
-		Vector2 rotatedV = Vector2(scaledV.X * cos - scaledV.Y * sin, scaledV.X * sin + scaledV.Y * cos);
-		// 3. 회전시킨 점을 이동한다.
-		Vector2 translatedV = rotatedV + currentPosition;
+	// 현재 화면의 크기로부터 길이를 비교할 기준양 정하기
+	static float maxLength = Vector2(_ScreenSize.X, _ScreenSize.Y).Size() * 0.5f;
 
-		hsv.H = rad / Math::TwoPI;
-		r.DrawPoint(translatedV, hsv.ToLinearColor());
-		rad += increment;
+	// 원을 구성하는 점을 그린다.
+	HSVColor hsv(0.f, 1.f, 0.85f);
+	for (auto const& v : squares)
+	{
+		// 극 좌표계로 변경한다.
+		Vector2 polarV = v.ToPolarCoordinate();
+
+		// 극좌표계의 각 정보로부터 색상을 결정한다.
+		if (polarV.Y < 0.f)
+		{
+			polarV.Y += Math::TwoPI;
+		}
+		hsv.H = polarV.Y / Math::TwoPI;
+
+		// 극좌표계의 크기 정보로부터 회전양을 결정한다.
+		float ratio = polarV.X / maxLength;
+		float weight = Math::Lerp(1.f, 5.f, ratio);
+
+		// 극좌표계를 사용해 회전을 부여한다.
+		polarV.Y += Math::Deg2Rad(currentDegree) * weight;
+
+		// 최종 값을 데카르트좌표계로 변환한다.
+		Vector2 cartesianV = polarV.ToCartesianCoordinate();
+		r.DrawPoint(cartesianV, hsv.ToLinearColor());
 	}
 
-	// 현재 위치, 크기, 각도를 화면에 출력
-	r.PushStatisticText(std::string("Position : ") + currentPosition.ToString());
-	r.PushStatisticText(std::string("Scale : ") + std::to_string(currentScale));
+	// 현재 각도를 화면에 출력
 	r.PushStatisticText(std::string("Degree : ") + std::to_string(currentDegree));
 }
 
