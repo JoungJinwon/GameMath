@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5C3D3128-CF40-333C-935E-3CFC8D19157A}</ProjectGuid>
+    <ProjectGuid>{AA61C453-AC38-385C-A6DD-A35E159618F2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-3c\Source\Runtime\Engine;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\Public;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\Public\2D;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\Public\3D;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\ThirdParty;C:\GameMath\gamemath-4-3c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-3c\Source\Runtime\Renderer\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-4c\Source\Runtime\Engine;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\Public;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\Public\2D;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\Public\3D;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\ThirdParty;C:\GameMath\gamemath-4-4c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-4c\Source\Runtime\Renderer\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-3c\Source\Runtime\Engine;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\Public;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\Public\2D;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\Public\3D;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\ThirdParty;C:\GameMath\gamemath-4-3c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-3c\Source\Runtime\Renderer\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-4c\Source\Runtime\Engine;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\Public;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\Public\2D;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\Public\3D;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\ThirdParty;C:\GameMath\gamemath-4-4c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-4c\Source\Runtime\Renderer\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-3c\Source\Runtime\Engine;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\Public;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\Public\2D;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\Public\3D;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\ThirdParty;C:\GameMath\gamemath-4-3c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-3c\Source\Runtime\Renderer\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-4c\Source\Runtime\Engine;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\Public;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\Public\2D;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\Public\3D;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\ThirdParty;C:\GameMath\gamemath-4-4c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-4c\Source\Runtime\Renderer\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-3c\Source\Runtime\Engine;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\Public;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\Public\2D;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\Public\3D;C:\GameMath\gamemath-4-3c\Source\Runtime\Engine\ThirdParty;C:\GameMath\gamemath-4-3c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-3c\Source\Runtime\Renderer\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\GameMath\gamemath-4-4c\Source\Runtime\Engine;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\Public;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\Public\2D;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\Public\3D;C:\GameMath\gamemath-4-4c\Source\Runtime\Engine\ThirdParty;C:\GameMath\gamemath-4-4c\Source\Runtime\Math\Public;C:\GameMath\gamemath-4-4c\Source\Runtime\Renderer\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -110,8 +110,8 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\GameMath\gamemath-4-3c\Project\Source\Runtime\Engine\EngineModule.vcxproj">
-      <Project>{CC557060-A687-3079-B65B-19220B74B741}</Project>
+    <ProjectReference Include="C:\GameMath\gamemath-4-4c\Project\Source\Runtime\Engine\EngineModule.vcxproj">
+      <Project>{D6129C0C-72B1-33CE-92E4-5358B20266A8}</Project>
       <Name>EngineModule</Name>
     </ProjectReference>
   </ItemGroup>
