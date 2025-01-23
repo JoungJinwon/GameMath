@@ -1,16 +1,1 @@
-﻿  Precompiled.cpp
-  CameraObject.cpp
-  GameEngine.cpp
-  GameObject.cpp
-  Mesh.cpp
-  TransformComponent.cpp
-  Bone.cpp
-  InputManager.cpp
-  Texture.cpp
-  코드를 생성하고 있습니다...
-  CameraObject.cpp
-  GameEngine.cpp
-  GameObject.cpp
-  Mesh.cpp
-  TransformComponent.cpp
-  EngineModule.vcxproj -> C:\GameMath\gamemath-5-2c\Output\Windows\Library\Debug\EngineModule.lib
+﻿  EngineModule.vcxproj -> C:\GameMath\gamemath-6-1\Output\Windows\Library\Debug\EngineModule.lib

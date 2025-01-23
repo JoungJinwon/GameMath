@@ -1,8 +1,8 @@
-# Install script for directory: C:/GameMath/gamemath-5-2c
+# Install script for directory: C:/GameMath/gamemath-6-1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SoftRenderer5-2c")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SoftRenderer6-1")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/GameMath/gamemath-5-2c/Project/Source/Runtime/Math/cmake_install.cmake")
-  include("C:/GameMath/gamemath-5-2c/Project/Source/Runtime/Renderer/cmake_install.cmake")
-  include("C:/GameMath/gamemath-5-2c/Project/Source/Runtime/Engine/cmake_install.cmake")
-  include("C:/GameMath/gamemath-5-2c/Project/Source/Player/cmake_install.cmake")
+  include("C:/GameMath/gamemath-6-1/Project/Source/Runtime/Math/cmake_install.cmake")
+  include("C:/GameMath/gamemath-6-1/Project/Source/Runtime/Renderer/cmake_install.cmake")
+  include("C:/GameMath/gamemath-6-1/Project/Source/Runtime/Engine/cmake_install.cmake")
+  include("C:/GameMath/gamemath-6-1/Project/Source/Player/cmake_install.cmake")
 
 endif()
 
@@ -49,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/GameMath/gamemath-5-2c/Project/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/GameMath/gamemath-6-1/Project/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

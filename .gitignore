@@ -1,2 +1,4 @@
 /Source/Player/Res/*.aps
 /Output
+/Project/.vs/
+*.ipch

@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{89D2AF48-F2B4-382A-835A-3DFB3AAD9FE3}</ProjectGuid>
+    <ProjectGuid>{AD5672B5-CDED-3290-B624-B5DB831D565F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\GameMath\gamemath-5-2c\Source\Player;C:\GameMath\gamemath-5-2c\Source\Player\Private\Windows;C:\GameMath\gamemath-5-2c\Source\Runtime\Math\Public;C:\GameMath\gamemath-5-2c\Source\Runtime\Engine\Public;C:\GameMath\gamemath-5-2c\Source\Runtime\Renderer\Public;C:\GameMath\gamemath-5-2c\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\GameMath\gamemath-6-1\Source\Player;C:\GameMath\gamemath-6-1\Source\Player\Private\Windows;C:\GameMath\gamemath-6-1\Source\Runtime\Math\Public;C:\GameMath\gamemath-6-1\Source\Runtime\Engine\Public;C:\GameMath\gamemath-6-1\Source\Runtime\Renderer\Public;C:\GameMath\gamemath-6-1\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\GameMath\gamemath-5-2c\Source\Player;C:\GameMath\gamemath-5-2c\Source\Player\Private\Windows;C:\GameMath\gamemath-5-2c\Source\Runtime\Math\Public;C:\GameMath\gamemath-5-2c\Source\Runtime\Engine\Public;C:\GameMath\gamemath-5-2c\Source\Runtime\Renderer\Public;C:\GameMath\gamemath-5-2c\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\GameMath\gamemath-6-1\Source\Player;C:\GameMath\gamemath-6-1\Source\Player\Private\Windows;C:\GameMath\gamemath-6-1\Source\Runtime\Math\Public;C:\GameMath\gamemath-6-1\Source\Runtime\Engine\Public;C:\GameMath\gamemath-6-1\Source\Runtime\Renderer\Public;C:\GameMath\gamemath-6-1\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\GameMath\gamemath-5-2c\Source\Player;C:\GameMath\gamemath-5-2c\Source\Player\Private\Windows;C:\GameMath\gamemath-5-2c\Source\Runtime\Math\Public;C:\GameMath\gamemath-5-2c\Source\Runtime\Engine\Public;C:\GameMath\gamemath-5-2c\Source\Runtime\Renderer\Public;C:\GameMath\gamemath-5-2c\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\GameMath\gamemath-6-1\Source\Player;C:\GameMath\gamemath-6-1\Source\Player\Private\Windows;C:\GameMath\gamemath-6-1\Source\Runtime\Math\Public;C:\GameMath\gamemath-6-1\Source\Runtime\Engine\Public;C:\GameMath\gamemath-6-1\Source\Runtime\Renderer\Public;C:\GameMath\gamemath-6-1\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\GameMath\gamemath-5-2c\Source\Player;C:\GameMath\gamemath-5-2c\Source\Player\Private\Windows;C:\GameMath\gamemath-5-2c\Source\Runtime\Math\Public;C:\GameMath\gamemath-5-2c\Source\Runtime\Engine\Public;C:\GameMath\gamemath-5-2c\Source\Runtime\Renderer\Public;C:\GameMath\gamemath-5-2c\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\GameMath\gamemath-6-1\Source\Player;C:\GameMath\gamemath-6-1\Source\Player\Private\Windows;C:\GameMath\gamemath-6-1\Source\Runtime\Math\Public;C:\GameMath\gamemath-6-1\Source\Runtime\Engine\Public;C:\GameMath\gamemath-6-1\Source\Runtime\Renderer\Public;C:\GameMath\gamemath-6-1\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -110,8 +110,8 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\GameMath\gamemath-5-2c\Project\Source\Player\SoftRendererPlayer.vcxproj">
-      <Project>{D437C971-7A02-3A1A-98F2-D321853CD02D}</Project>
+    <ProjectReference Include="C:\GameMath\gamemath-6-1\Project\Source\Player\SoftRendererPlayer.vcxproj">
+      <Project>{72A979BC-7300-32F3-88E3-4057177CFFF3}</Project>
       <Name>SoftRendererPlayer</Name>
     </ProjectReference>
   </ItemGroup>

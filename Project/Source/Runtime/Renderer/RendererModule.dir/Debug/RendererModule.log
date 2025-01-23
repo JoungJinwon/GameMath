@@ -1,10 +1,1 @@
-﻿  Precompiled.cpp
-  Shader.cpp
-  Vertex.cpp
-  PerspectiveTest.cpp
-  WindowsGDI.cpp
-  WindowsRSI.cpp
-  코드를 생성하고 있습니다...
-  Shader.cpp
-  Vertex.cpp
-  RendererModule.vcxproj -> C:\GameMath\gamemath-5-2c\Output\Windows\Library\Debug\RendererModule.lib
+﻿  RendererModule.vcxproj -> C:\GameMath\gamemath-6-1\Output\Windows\Library\Debug\RendererModule.lib

@@ -1,8 +1,2 @@
-﻿  Precompiled.cpp
-  SystemInputManager.cpp
-  SoftRenderer.cpp
-  SoftRenderer2D.cpp
-  SoftRenderer3D.cpp
-  WindowsApp.cpp
-  코드를 생성하고 있습니다...
-  SoftRendererPlayer.vcxproj -> C:\GameMath\gamemath-5-2c\Output\Windows\Binary\Debug\SoftRendererPlayer.exe
+﻿  SoftRenderer2D.cpp
+  SoftRendererPlayer.vcxproj -> C:\GameMath\gamemath-6-1\Output\Windows\Binary\Debug\SoftRendererPlayer.exe
